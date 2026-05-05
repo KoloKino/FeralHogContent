@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemaps-image/1.1">
+  <url>
+    <loc>https://feralhogcontent.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://feralhogcontent.com/assets/images/31-headshot-gabriel-perez.jpg</image:loc>
+      <image:caption>Gabriel J. Perez, voice actor and producer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://feralhogcontent.com/assets/images/30-logo-feralhog.jpg</image:loc>
+      <image:caption>Feral Hog Content logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://feralhogcontent.com/assets/images/feral-hog-silhouette.png</image:loc>
+      <image:caption>Feral Hog Content brand symbol</image:caption>
+    </image:image>
+  </url>
+</urlset>

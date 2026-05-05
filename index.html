@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <!--
-  Feral Hog Content. Redesign draft v0.3
-  Static HTML mockup for stakeholder review.
-  Open with double-click. Run copiar-assets.bat first if assets are missing.
+  Feral Hog Content. Production website for Gabriel J. Perez.
+  Hosted on GitHub Pages, served at https://feralhogcontent.com.
 -->
 <html lang="en">
 <head>
@@ -10,16 +9,196 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Feral Hog Content. Audiobooks, voice-over and production | Gabriel J. Perez</title>
 <meta name="description" content="Production company by Gabriel J. Perez: audiobooks for Audible, voice-over and dubbing ES/EN, translation and audiovisual production from Jersey City, NJ.">
+<meta name="author" content="Gabriel J. Perez">
+<meta name="robots" content="index, follow, max-image-preview:large">
 
+<link rel="canonical" href="https://feralhogcontent.com/">
+
+<!-- Open Graph -->
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Feral Hog Content">
 <meta property="og:title" content="Feral Hog Content by Gabriel J. Perez">
-<meta property="og:description" content="Voice actor, narrator and producer. Audiobooks, ES/EN dubbing and audiovisual production.">
-<meta property="og:image" content="./assets/images/31-headshot-gabriel-perez.jpg">
+<meta property="og:description" content="Voice actor, narrator and producer. Audiobooks for Audible, voice-over and dubbing ES/EN, audiovisual production from Jersey City, NJ.">
+<meta property="og:url" content="https://feralhogcontent.com/">
+<meta property="og:image" content="https://feralhogcontent.com/assets/images/31-headshot-gabriel-perez.jpg">
+<meta property="og:image:alt" content="Gabriel J. Perez, voice actor and producer">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Feral Hog Content by Gabriel J. Perez">
+<meta name="twitter:description" content="Voice actor, narrator and producer. Audiobooks, voice-over and dubbing ES/EN.">
+<meta name="twitter:image" content="https://feralhogcontent.com/assets/images/31-headshot-gabriel-perez.jpg">
+<meta name="twitter:image:alt" content="Gabriel J. Perez, voice actor and producer">
 
 <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Structured data (JSON-LD) for Google rich results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://feralhogcontent.com/#gabriel",
+      "name": "Gabriel J. Perez",
+      "givenName": "Gabriel",
+      "familyName": "Perez",
+      "jobTitle": "Voice actor, audiobook narrator, author and producer",
+      "description": "Bilingual native (Spanish and English) voice actor, audiobook narrator, author and producer. Founder of Feral Hog Content, Inc. Lead narrator on the Kolo Kino documentary channel.",
+      "knowsLanguage": ["en", "es"],
+      "image": "https://feralhogcontent.com/assets/images/31-headshot-gabriel-perez.jpg",
+      "url": "https://feralhogcontent.com/",
+      "email": "mailto:gabe@feralhogcontent.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jersey City",
+        "addressRegion": "NJ",
+        "addressCountry": "US"
+      },
+      "worksFor": { "@id": "https://feralhogcontent.com/#org" },
+      "sameAs": [
+        "https://www.imdb.com/name/nm3524200/",
+        "https://voice123.com/voice-actor/gabrielperez"
+      ]
+    },
+    {
+      "@type": ["Organization", "LocalBusiness"],
+      "@id": "https://feralhogcontent.com/#org",
+      "name": "Feral Hog Content, Inc.",
+      "alternateName": "Feral Hog Content",
+      "url": "https://feralhogcontent.com/",
+      "logo": "https://feralhogcontent.com/assets/images/30-logo-feralhog.jpg",
+      "image": "https://feralhogcontent.com/assets/images/30-logo-feralhog.jpg",
+      "description": "Multi-service production company. Audiobooks, voice-over, ES/EN dubbing, translation and audiovisual production.",
+      "founder": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jersey City",
+        "addressRegion": "NJ",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-305-302-3593",
+      "email": "mailto:gabe@feralhogcontent.com",
+      "areaServed": ["US", "Spanish-speaking world"],
+      "knowsLanguage": ["en", "es"],
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Audiobook narration and production", "description": "Full-service audiobook production. Audible/ACX-ready delivery in EN or ES." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Voice-over and dubbing", "description": "Documentary narration, commercials, e-learning, ES/EN dubbing. Native bilingual delivery." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Audiovisual production", "description": "Corporate video, branded content, online castings and online production crews." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spanish/English translation", "description": "Read-ready translation for dubbing, e-learning, explainers, audiobook adaptations." } }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://feralhogcontent.com/#website",
+      "url": "https://feralhogcontent.com/",
+      "name": "Feral Hog Content",
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": ["en", "es"]
+    },
+    {
+      "@type": "Audiobook",
+      "name": "The Tunnel",
+      "image": "https://feralhogcontent.com/assets/images/14-audiobook-acxtunnel.jpg",
+      "url": "https://www.audible.com/pd/B0FRNGYLJ1/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "Skull-Face",
+      "author": { "@type": "Person", "name": "Robert E. Howard" },
+      "image": "https://feralhogcontent.com/assets/images/13-audiobook-skullface.jpg",
+      "url": "https://www.amazon.com/dp/B0F448M5R4/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "Dream's End",
+      "author": { "@type": "Person", "name": "Henry Kuttner" },
+      "image": "https://feralhogcontent.com/assets/images/11-audiobook-dreams.jpg",
+      "url": "https://www.amazon.com/Dreams-End-Annotations-Terms-Used/dp/B0DLLJB4WH/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "Visability Zero",
+      "author": { "@type": "Person", "name": "John Amid" },
+      "image": "https://feralhogcontent.com/assets/images/19-audiobook-visabilityzero.jpg",
+      "url": "https://www.amazon.com/Visability-Zero-Annotations-Gabriel-J-Perez/dp/B0F55GZBM6/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "Bulldog",
+      "image": "https://feralhogcontent.com/assets/images/10-audiobook-bulldog.jpg",
+      "url": "https://www.amazon.com/Bulldog-Annotations-About-Book-Author/dp/B0DKB1JC2L/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "The Plagiarist of Rigel",
+      "image": "https://feralhogcontent.com/assets/images/18-audiobook-plagiarist.jpg",
+      "url": "https://www.amazon.com/Plagiarist-Rigel-Annotations-References-Technology/dp/B0DJFXXJJ3/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "Fire of Retribution",
+      "author": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "image": "https://feralhogcontent.com/assets/images/44-firebook2.jpg",
+      "url": "https://www.amazon.com/Fire-Retribution-Annotations-Written-Gabriel/dp/B0DGWQG6DY/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "Heart of Darkness",
+      "author": { "@type": "Person", "name": "Joseph Conrad" },
+      "image": "https://feralhogcontent.com/assets/images/15-audiobook-cover-hd.jpeg",
+      "url": "https://www.amazon.com/Audible-Heart-of-Darkness/dp/B0CN3SJD79/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "Gilded Time",
+      "image": "https://feralhogcontent.com/assets/images/16-audiobook-gilded-time.jpg",
+      "url": "https://www.amazon.com/Audible-Gilded-Time/dp/B0D45XLMQ3/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Audiobook",
+      "name": "The Hellbilly Blues",
+      "image": "https://feralhogcontent.com/assets/images/17-audiobook-hellbilly.jpg",
+      "url": "https://www.amazon.com/Audible-The-Hellbilly-Blues/dp/B09X68DB7S/",
+      "readBy": { "@id": "https://feralhogcontent.com/#gabriel" },
+      "publisher": { "@id": "https://feralhogcontent.com/#org" },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
 
 <style>
   /* ==========================================
